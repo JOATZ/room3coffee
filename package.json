@@ -1,7 +1,13 @@
 {
+  "name": "CoffeeSite",
+  "version": "1.1.0",
+  "description": "CoffeShopWebsite",
+  "main": "index.html",
   "scripts": {
     "clean": "rimraf dist",
-    "sass": "node-sass -o css/ css/",
+    "scss": "node-sass -o css/ css/",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "copyjs": "copyfiles -f node_modules/bootstrap/dist/js/bootstrap.bundle.js js",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "babel": "babel js/* -d js",
