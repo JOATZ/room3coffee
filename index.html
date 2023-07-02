@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- build:css css/main.css -->
+    <!-- build:css css/main.css -->
+  <!-- Bootstrap CSS -->
   <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css' />
+
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
   <link rel='stylesheet' href='node_modules/font-awesome/css/font-awesome.min.css' />
   <link rel='stylesheet' href='node_modules/bootstrap-social/bootstrap-social.css' />
   <link rel='stylesheet' href='css/style.css' />
-<!-- endbuild -->
+  <!-- endbuild -->
 
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans' />
 
@@ -26,18 +29,43 @@
       </div> <!-- end row -->
     </div> <!-- end container -->
   </header>
+
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <ul class='navbar-nav'>
+      <li class='navbar-item active'>
+        <a href='#' class='nav-link'><i class='fa fa-home fa-lg'></i>
+          Home</a>
+      </li>
+      <li class='navbar-item'>
+        <a href='aboutus' class='nav-link'><i class='fa fa-info fa-lg'></i>
+          About Us</a>
+      </li>
+    </ul>
+  </nav>
+
   <div class="container">
     <div class="row row-content">
       <div class="col">
-        
+        Hot Coffee
+        <img src="img/coffee.jpg" alt="coffee" width='100%'>
+      </div> <!-- end col -->
+      <div class="col">
+        Great Donuts
+        <img src="img/doughnut.jpg" alt="donut" width='100%'>
+      </div> <!-- end col -->
+      <div class="col">
+        Sandwiches
+        <img src="img/sandwhich.jpg" alt="sandwich" width='100%'>
       </div> <!-- end col -->
     </div> <!-- end row -->
   </div> <!-- end container -->
-  <footer>
+  <footer></footer>
 
-  </footer>
-  <!-- build:js js/main.js -->
+  <!-- Bootstrap JavaScript plugins.-->
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <!-- build:js js/main.js -->
+  <!-- <script src='js/bootstrap.bundle.js'> -->
+  </script>
   <!-- endbuild -->
 </body>
 </html>
