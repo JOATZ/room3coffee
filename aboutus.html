@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- build:css css/main.css -->
 <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css' />
@@ -10,28 +10,36 @@
 <link rel='stylesheet' href='node_modules/bootstrap-social/bootstrap-social.css' />
 <link rel='stylesheet' href='css/style.css' />
 <!-- endbuild -->
-    <title>Room 3 Coffee</title>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans' />
+
+<title>Room 3 Coffee</title>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="row">                               
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                   <a href="index.html"><img src="img/logo.png" class="img-fluid"></a>
-                </div>
                 <div class="col">
                     <h1>Room 3 Coffee</h1>
-                    <h2>Coffee Subheading</h2>
+                    <h2>Great Coffee and Social</h2>
                 </div>
             </div>
         </div>
     </header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#theNavbar"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="theNavbar">
+                <ul class='navbar-nav'>
+                    <li class='navbar-item'><a href='index.html' class='nav-link'><i class='fa fa-home fa-lg'></i>Home</a></li>
+                    <li class='navbar-item active'><a href='#' class='nav-link'><i class='fa fa-info fa-lg'></i>About Us</a></li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+            <div class="container container-fluid">
                 <div class="row row-content">
                     <div class="col-md-8 mx-auto">
-
-                        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div id="homeCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
                                 <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
@@ -72,8 +80,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    <footer>
+    <footer class="fixed-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">

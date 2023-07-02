@@ -7,10 +7,22 @@ h1, h2, h3 {
   font-family: "Lobster";
 }
 
-header {
+header, footer {
     background-color: cadetblue;
+}
+
+header {
+    margin: auto;
+    text-align: center;
 }
 
 .navbar {
     background-color: blueviolet;
 }
+
+img {
+    border-radius: 10px;
+}
+
+
+
