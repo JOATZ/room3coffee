@@ -18,6 +18,8 @@
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
+  "author": "Sharon Lewis, Marc Perez, Ryan Zierman",
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-social": "^5.1.1",
