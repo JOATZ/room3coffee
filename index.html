@@ -42,7 +42,7 @@
     <div class="row row-content mt-5">
       <div class="col-md-4">
         <h2 class="p-2">Coffee</h2>
-        <img src="img/coffee.jpg" alt="coffee" width="100%">
+        <a role="button" data-bs-toggle="modal" data-bs-target="#aModal"><img src="img/coffee.jpg" alt="coffee" width="100%"></a>
       </div> <!-- end col -->
       <div class="col-md-4">
         <h2 class="p-2">Doughnuts</h2>
@@ -54,6 +54,21 @@
       </div> <!-- end col -->
     </div> <!-- end row -->
   </div> <!-- end container -->
+
+  <div id="aModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>A Modal with an Image</h1>
+                <button type="button" class="close btn btn-danger" data-bs-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src="img/coffee.jpg" alt="coffee" width="100%">
+            </div>
+        </div>
+    </div>
+  </div>
+
   <footer class="fixed-bottom">
     <div class="container">
         <div class="row">

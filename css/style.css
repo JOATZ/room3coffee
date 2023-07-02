@@ -24,5 +24,7 @@ img {
     border-radius: 10px;
 }
 
-
+a img:hover {
+    border: solid 5px;
+}
 
